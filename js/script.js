@@ -18,7 +18,7 @@ window.onscroll = () => {
 };
 
 const sr = ScrollReveal({
-  distance: "60px",
+  distance: "0px",
   duration: 1700,
   reset: true,
 });
@@ -28,8 +28,8 @@ sr.reveal(".home-img", { delay: 350, origin: "right" });
 sr.reveal(".party", { delay: 350, origin: "top" });
 
 sr.reveal(".sub-service,.about,.portfolio,.service,.cta,.contact", {
-  delay: 200,
-  origin: "bottom",
+  delay: 100,
+  origin: "top",
 });
 
 var typingEffect = new Typed(".multiText", {
